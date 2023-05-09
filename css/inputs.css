@@ -1,0 +1,130 @@
+.block_div{
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 85vh;
+
+   }
+   .h1_student{
+    font-size: 50px;
+   }
+   .h1_student2{
+    font-size: 30px;
+   }
+   .student_inp{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid;
+   }
+   .student_inp2{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid;
+  }
+   .student_inp3{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin: auto;
+    border: 1px solid;
+   }
+
+   /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #fffefe;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border: 1px solid;
+}
+
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+b{
+  text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+  .block_div {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+  .h1_student {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .h1_student2 {
+    font-size: 24px;
+  }
+  
+  .student_inp {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .student_inp2, .student_inp3 {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .single-features {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 771px) {
+  .stem_logo {
+    width: 70px;
+   
+
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-features {
+    padding: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .single-features {
+    padding: 80px;
+  }
+}
